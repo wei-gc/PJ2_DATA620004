@@ -1,0 +1,209 @@
+2023-06-04 15:28:32,879 INFO    StreamThr :66730 [internal.py:wandb_internal():86] W&B internal server running at pid: 66730, started at: 2023-06-04 15:28:32.865633
+2023-06-04 15:28:32,880 DEBUG   HandlerThread:66730 [handler.py:handle_request():144] handle_request: status
+2023-06-04 15:28:32,886 INFO    WriterThread:66730 [datastore.py:open_for_write():85] open: /mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/resnet18cifar/wandb/run-20230604_152832-52pcuk09/run-52pcuk09.wandb
+2023-06-04 15:28:32,894 DEBUG   SenderThread:66730 [sender.py:send():375] send: header
+2023-06-04 15:28:32,909 DEBUG   SenderThread:66730 [sender.py:send():375] send: run
+2023-06-04 15:28:33,600 INFO    SenderThread:66730 [dir_watcher.py:__init__():219] watching files in: /mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/resnet18cifar/wandb/run-20230604_152832-52pcuk09/files
+2023-06-04 15:28:33,600 INFO    SenderThread:66730 [sender.py:_start_run_threads():1124] run started: 52pcuk09 with start time 1685863712.878578
+2023-06-04 15:28:33,601 DEBUG   HandlerThread:66730 [handler.py:handle_request():144] handle_request: check_version
+2023-06-04 15:28:33,602 DEBUG   SenderThread:66730 [sender.py:send_request():402] send_request: summary_record
+2023-06-04 15:28:33,605 INFO    SenderThread:66730 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-04 15:28:33,608 DEBUG   SenderThread:66730 [sender.py:send_request():402] send_request: check_version
+2023-06-04 15:28:34,373 DEBUG   HandlerThread:66730 [handler.py:handle_request():144] handle_request: run_start
+2023-06-04 15:28:34,376 DEBUG   HandlerThread:66730 [system_info.py:__init__():31] System info init
+2023-06-04 15:28:34,378 DEBUG   HandlerThread:66730 [system_info.py:__init__():46] System info init done
+2023-06-04 15:28:34,379 INFO    HandlerThread:66730 [system_monitor.py:start():181] Starting system monitor
+2023-06-04 15:28:34,384 INFO    SystemMonitor:66730 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-06-04 15:28:34,384 INFO    HandlerThread:66730 [system_monitor.py:probe():201] Collecting system info
+2023-06-04 15:28:34,393 INFO    SystemMonitor:66730 [interfaces.py:start():190] Started cpu monitoring
+2023-06-04 15:28:34,399 INFO    SystemMonitor:66730 [interfaces.py:start():190] Started disk monitoring
+2023-06-04 15:28:34,399 INFO    SystemMonitor:66730 [interfaces.py:start():190] Started gpu monitoring
+2023-06-04 15:28:34,400 INFO    SystemMonitor:66730 [interfaces.py:start():190] Started memory monitoring
+2023-06-04 15:28:34,401 INFO    SystemMonitor:66730 [interfaces.py:start():190] Started network monitoring
+2023-06-04 15:28:34,438 DEBUG   HandlerThread:66730 [system_info.py:probe():195] Probing system
+2023-06-04 15:28:34,443 DEBUG   HandlerThread:66730 [system_info.py:_probe_git():180] Probing git
+2023-06-04 15:28:34,496 DEBUG   HandlerThread:66730 [system_info.py:_probe_git():188] Probing git done
+2023-06-04 15:28:34,496 DEBUG   HandlerThread:66730 [system_info.py:probe():240] Probing system done
+2023-06-04 15:28:34,501 DEBUG   HandlerThread:66730 [system_monitor.py:probe():210] {'os': 'Linux-4.19.91-012.ali4000.alios7.x86_64-x86_64-with-glibc2.31', 'python': '3.9.15', 'heartbeatAt': '2023-06-04T07:28:34.438099', 'startedAt': '2023-06-04T07:28:32.790209', 'docker': None, 'cuda': None, 'args': ('--work-dir', './'), 'state': 'running', 'program': '/mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/resnet18cifar/../../../tools/train_classification_model.py', 'codePath': 'resnet18/tools/train_classification_model.py', 'git': {'remote': 'https://github.com/wei-gc/PJ2_DATA620004/', 'commit': 'a221bbb90240097488e669a956f7408c7c90496e'}, 'email': None, 'root': '/mnt/workspace/weigengchen/projects/PJ2_DATA620004', 'host': 'dsw-25152-6c4bbd99f-kw7vp', 'username': 'root', 'executable': '/home/pai/envs/FCOS/bin/python', 'cpu_count': 64, 'cpu_count_logical': 128, 'cpu_freq': {'current': 2899.8489999999924, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}, {'current': 2899.849, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 491.04396057128906, 'used': 186.81968688964844}, 'gpu': 'NVIDIA GeForce RTX 3090', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3090', 'memory_total': 25447170048}], 'memory': {'total': 100.0}}
+2023-06-04 15:28:34,502 INFO    HandlerThread:66730 [system_monitor.py:probe():211] Finished collecting system info
+2023-06-04 15:28:34,510 INFO    HandlerThread:66730 [system_monitor.py:probe():214] Publishing system info
+2023-06-04 15:28:34,516 DEBUG   HandlerThread:66730 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-06-04 15:28:34,541 DEBUG   HandlerThread:66730 [system_info.py:_save_pip():67] Saving pip packages done
+2023-06-04 15:28:34,541 DEBUG   HandlerThread:66730 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-06-04 15:28:34,603 INFO    Thread-12 :66730 [dir_watcher.py:_on_file_created():278] file/dir created: /mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/resnet18cifar/wandb/run-20230604_152832-52pcuk09/files/wandb-summary.json
+2023-06-04 15:28:34,603 INFO    Thread-12 :66730 [dir_watcher.py:_on_file_created():278] file/dir created: /mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/resnet18cifar/wandb/run-20230604_152832-52pcuk09/files/conda-environment.yaml
+2023-06-04 15:28:34,605 INFO    Thread-12 :66730 [dir_watcher.py:_on_file_created():278] file/dir created: /mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/resnet18cifar/wandb/run-20230604_152832-52pcuk09/files/requirements.txt
+2023-06-04 15:28:41,840 DEBUG   HandlerThread:66730 [system_info.py:_save_conda():86] Saving conda packages done
+2023-06-04 15:28:41,841 DEBUG   HandlerThread:66730 [system_info.py:_save_code():89] Saving code
+2023-06-04 15:28:41,868 DEBUG   HandlerThread:66730 [system_info.py:_save_code():110] Saving code done
+2023-06-04 15:28:41,869 DEBUG   HandlerThread:66730 [system_info.py:_save_patches():127] Saving git patches
+2023-06-04 15:28:41,928 DEBUG   HandlerThread:66730 [system_info.py:_save_patches():169] Saving git patches done
+2023-06-04 15:28:41,933 INFO    HandlerThread:66730 [system_monitor.py:probe():216] Finished publishing system info
+2023-06-04 15:28:41,938 DEBUG   HandlerThread:66730 [handler.py:handle_request():144] handle_request: status_report
+2023-06-04 15:28:41,938 DEBUG   HandlerThread:66730 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-04 15:28:41,941 DEBUG   SenderThread:66730 [sender.py:send():375] send: files
+2023-06-04 15:28:41,943 INFO    SenderThread:66730 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-06-04 15:28:41,943 DEBUG   HandlerThread:66730 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-04 15:28:41,945 INFO    SenderThread:66730 [sender.py:_save_file():1378] saving file code/resnet18/tools/train_classification_model.py with policy now
+2023-06-04 15:28:41,967 DEBUG   SenderThread:66730 [sender.py:send_request():402] send_request: stop_status
+2023-06-04 15:28:42,324 DEBUG   SenderThread:66730 [sender.py:send():375] send: telemetry
+2023-06-04 15:28:42,617 INFO    Thread-12 :66730 [dir_watcher.py:_on_file_modified():295] file/dir modified: /mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/resnet18cifar/wandb/run-20230604_152832-52pcuk09/files/conda-environment.yaml
+2023-06-04 15:28:42,617 INFO    Thread-12 :66730 [dir_watcher.py:_on_file_created():278] file/dir created: /mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/resnet18cifar/wandb/run-20230604_152832-52pcuk09/files/code/resnet18/tools/train_classification_model.py
+2023-06-04 15:28:42,619 INFO    Thread-12 :66730 [dir_watcher.py:_on_file_created():278] file/dir created: /mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/resnet18cifar/wandb/run-20230604_152832-52pcuk09/files/output.log
+2023-06-04 15:28:42,620 INFO    Thread-12 :66730 [dir_watcher.py:_on_file_created():278] file/dir created: /mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/resnet18cifar/wandb/run-20230604_152832-52pcuk09/files/wandb-metadata.json
+2023-06-04 15:28:42,622 INFO    Thread-12 :66730 [dir_watcher.py:_on_file_created():278] file/dir created: /mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/resnet18cifar/wandb/run-20230604_152832-52pcuk09/files/code
+2023-06-04 15:28:42,623 INFO    Thread-12 :66730 [dir_watcher.py:_on_file_created():278] file/dir created: /mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/resnet18cifar/wandb/run-20230604_152832-52pcuk09/files/code/resnet18
+2023-06-04 15:28:42,625 INFO    Thread-12 :66730 [dir_watcher.py:_on_file_created():278] file/dir created: /mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/resnet18cifar/wandb/run-20230604_152832-52pcuk09/files/code/resnet18/tools
+2023-06-04 15:28:42,908 INFO    wandb-upload_0:66730 [upload_job.py:push():137] Uploaded file /tmp/tmpq8vjbh0ywandb/vwiqw0bv-wandb-metadata.json
+2023-06-04 15:28:43,005 INFO    wandb-upload_1:66730 [upload_job.py:push():137] Uploaded file /tmp/tmpq8vjbh0ywandb/pstbkv5j-code/resnet18/tools/train_classification_model.py
+2023-06-04 15:28:43,517 DEBUG   HandlerThread:66730 [handler.py:handle_request():144] handle_request: status_report
+2023-06-04 15:28:44,619 INFO    Thread-12 :66730 [dir_watcher.py:_on_file_modified():295] file/dir modified: /mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/resnet18cifar/wandb/run-20230604_152832-52pcuk09/files/output.log
+2023-06-04 15:28:46,643 INFO    Thread-12 :66730 [dir_watcher.py:_on_file_modified():295] file/dir modified: /mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/resnet18cifar/wandb/run-20230604_152832-52pcuk09/files/output.log
+2023-06-04 15:28:48,600 DEBUG   HandlerThread:66730 [handler.py:handle_request():144] handle_request: status_report
+2023-06-04 15:28:53,601 DEBUG   HandlerThread:66730 [handler.py:handle_request():144] handle_request: status_report
+2023-06-04 15:28:56,943 DEBUG   HandlerThread:66730 [handler.py:handle_request():144] handle_request: stop_status
+2023-06-04 15:28:56,944 DEBUG   SenderThread:66730 [sender.py:send_request():402] send_request: stop_status
+2023-06-04 15:28:59,204 DEBUG   HandlerThread:66730 [handler.py:handle_request():144] handle_request: status_report
+2023-06-04 15:29:01,385 DEBUG   HandlerThread:66730 [handler.py:handle_request():144] handle_request: partial_history
+2023-06-04 15:29:01,386 DEBUG   SenderThread:66730 [sender.py:send():375] send: history
+2023-06-04 15:29:01,387 DEBUG   SenderThread:66730 [sender.py:send_request():402] send_request: summary_record
+2023-06-04 15:29:01,400 INFO    SenderThread:66730 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-04 15:29:01,745 INFO    Thread-12 :66730 [dir_watcher.py:_on_file_modified():295] file/dir modified: /mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/resnet18cifar/wandb/run-20230604_152832-52pcuk09/files/wandb-summary.json
+2023-06-04 15:29:02,754 INFO    Thread-12 :66730 [dir_watcher.py:_on_file_modified():295] file/dir modified: /mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/resnet18cifar/wandb/run-20230604_152832-52pcuk09/files/output.log
+2023-06-04 15:29:02,996 DEBUG   SenderThread:66730 [sender.py:send():375] send: exit
+2023-06-04 15:29:02,996 INFO    SenderThread:66730 [sender.py:send_exit():598] handling exit code: 255
+2023-06-04 15:29:02,997 INFO    SenderThread:66730 [sender.py:send_exit():600] handling runtime: 28
+2023-06-04 15:29:03,013 INFO    SenderThread:66730 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-04 15:29:03,013 INFO    SenderThread:66730 [sender.py:send_exit():606] send defer
+2023-06-04 15:29:03,014 DEBUG   HandlerThread:66730 [handler.py:handle_request():144] handle_request: defer
+2023-06-04 15:29:03,014 INFO    HandlerThread:66730 [handler.py:handle_request_defer():170] handle defer: 0
+2023-06-04 15:29:03,014 DEBUG   SenderThread:66730 [sender.py:send_request():402] send_request: defer
+2023-06-04 15:29:03,014 INFO    SenderThread:66730 [sender.py:send_request_defer():622] handle sender defer: 0
+2023-06-04 15:29:03,014 INFO    SenderThread:66730 [sender.py:transition_state():626] send defer: 1
+2023-06-04 15:29:03,014 DEBUG   HandlerThread:66730 [handler.py:handle_request():144] handle_request: defer
+2023-06-04 15:29:03,014 INFO    HandlerThread:66730 [handler.py:handle_request_defer():170] handle defer: 1
+2023-06-04 15:29:03,014 DEBUG   SenderThread:66730 [sender.py:send_request():402] send_request: defer
+2023-06-04 15:29:03,014 INFO    SenderThread:66730 [sender.py:send_request_defer():622] handle sender defer: 1
+2023-06-04 15:29:03,014 INFO    SenderThread:66730 [sender.py:transition_state():626] send defer: 2
+2023-06-04 15:29:03,014 DEBUG   HandlerThread:66730 [handler.py:handle_request():144] handle_request: defer
+2023-06-04 15:29:03,014 INFO    HandlerThread:66730 [handler.py:handle_request_defer():170] handle defer: 2
+2023-06-04 15:29:03,014 INFO    HandlerThread:66730 [system_monitor.py:finish():190] Stopping system monitor
+2023-06-04 15:29:03,014 DEBUG   SystemMonitor:66730 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-06-04 15:29:03,015 DEBUG   SystemMonitor:66730 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-06-04 15:29:03,015 DEBUG   SystemMonitor:66730 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-06-04 15:29:03,015 INFO    HandlerThread:66730 [interfaces.py:finish():202] Joined cpu monitor
+2023-06-04 15:29:03,015 INFO    HandlerThread:66730 [interfaces.py:finish():202] Joined disk monitor
+2023-06-04 15:29:03,033 INFO    HandlerThread:66730 [interfaces.py:finish():202] Joined gpu monitor
+2023-06-04 15:29:03,033 INFO    HandlerThread:66730 [interfaces.py:finish():202] Joined memory monitor
+2023-06-04 15:29:03,039 INFO    HandlerThread:66730 [interfaces.py:finish():202] Joined network monitor
+2023-06-04 15:29:03,043 DEBUG   SenderThread:66730 [sender.py:send_request():402] send_request: defer
+2023-06-04 15:29:03,049 INFO    SenderThread:66730 [sender.py:send_request_defer():622] handle sender defer: 2
+2023-06-04 15:29:03,054 INFO    SenderThread:66730 [sender.py:transition_state():626] send defer: 3
+2023-06-04 15:29:03,054 DEBUG   HandlerThread:66730 [handler.py:handle_request():144] handle_request: defer
+2023-06-04 15:29:03,054 INFO    HandlerThread:66730 [handler.py:handle_request_defer():170] handle defer: 3
+2023-06-04 15:29:03,055 DEBUG   SenderThread:66730 [sender.py:send_request():402] send_request: defer
+2023-06-04 15:29:03,055 INFO    SenderThread:66730 [sender.py:send_request_defer():622] handle sender defer: 3
+2023-06-04 15:29:03,055 INFO    SenderThread:66730 [sender.py:transition_state():626] send defer: 4
+2023-06-04 15:29:03,055 DEBUG   HandlerThread:66730 [handler.py:handle_request():144] handle_request: defer
+2023-06-04 15:29:03,055 INFO    HandlerThread:66730 [handler.py:handle_request_defer():170] handle defer: 4
+2023-06-04 15:29:03,055 DEBUG   SenderThread:66730 [sender.py:send_request():402] send_request: defer
+2023-06-04 15:29:03,055 INFO    SenderThread:66730 [sender.py:send_request_defer():622] handle sender defer: 4
+2023-06-04 15:29:03,055 INFO    SenderThread:66730 [sender.py:transition_state():626] send defer: 5
+2023-06-04 15:29:03,055 DEBUG   HandlerThread:66730 [handler.py:handle_request():144] handle_request: defer
+2023-06-04 15:29:03,055 INFO    HandlerThread:66730 [handler.py:handle_request_defer():170] handle defer: 5
+2023-06-04 15:29:03,056 DEBUG   SenderThread:66730 [sender.py:send():375] send: summary
+2023-06-04 15:29:03,058 INFO    SenderThread:66730 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-06-04 15:29:03,062 DEBUG   SenderThread:66730 [sender.py:send_request():402] send_request: defer
+2023-06-04 15:29:03,063 INFO    SenderThread:66730 [sender.py:send_request_defer():622] handle sender defer: 5
+2023-06-04 15:29:03,065 INFO    SenderThread:66730 [sender.py:transition_state():626] send defer: 6
+2023-06-04 15:29:03,066 DEBUG   HandlerThread:66730 [handler.py:handle_request():144] handle_request: defer
+2023-06-04 15:29:03,068 INFO    HandlerThread:66730 [handler.py:handle_request_defer():170] handle defer: 6
+2023-06-04 15:29:03,069 DEBUG   SenderThread:66730 [sender.py:send_request():402] send_request: defer
+2023-06-04 15:29:03,071 INFO    SenderThread:66730 [sender.py:send_request_defer():622] handle sender defer: 6
+2023-06-04 15:29:03,078 DEBUG   HandlerThread:66730 [handler.py:handle_request():144] handle_request: status_report
+2023-06-04 15:29:03,374 INFO    SenderThread:66730 [sender.py:transition_state():626] send defer: 7
+2023-06-04 15:29:03,374 DEBUG   HandlerThread:66730 [handler.py:handle_request():144] handle_request: defer
+2023-06-04 15:29:03,376 INFO    HandlerThread:66730 [handler.py:handle_request_defer():170] handle defer: 7
+2023-06-04 15:29:03,379 DEBUG   SenderThread:66730 [sender.py:send_request():402] send_request: defer
+2023-06-04 15:29:03,381 INFO    SenderThread:66730 [sender.py:send_request_defer():622] handle sender defer: 7
+2023-06-04 15:29:03,771 INFO    Thread-12 :66730 [dir_watcher.py:_on_file_modified():295] file/dir modified: /mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/resnet18cifar/wandb/run-20230604_152832-52pcuk09/files/wandb-summary.json
+2023-06-04 15:29:03,771 INFO    Thread-12 :66730 [dir_watcher.py:_on_file_modified():295] file/dir modified: /mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/resnet18cifar/wandb/run-20230604_152832-52pcuk09/files/config.yaml
+2023-06-04 15:29:03,996 DEBUG   HandlerThread:66730 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-04 15:29:04,734 INFO    SenderThread:66730 [sender.py:transition_state():626] send defer: 8
+2023-06-04 15:29:04,734 DEBUG   SenderThread:66730 [sender.py:send_request():402] send_request: poll_exit
+2023-06-04 15:29:04,734 DEBUG   HandlerThread:66730 [handler.py:handle_request():144] handle_request: defer
+2023-06-04 15:29:04,737 INFO    HandlerThread:66730 [handler.py:handle_request_defer():170] handle defer: 8
+2023-06-04 15:29:04,739 DEBUG   SenderThread:66730 [sender.py:send_request():402] send_request: defer
+2023-06-04 15:29:04,740 INFO    SenderThread:66730 [sender.py:send_request_defer():622] handle sender defer: 8
+2023-06-04 15:29:04,745 INFO    SenderThread:66730 [sender.py:transition_state():626] send defer: 9
+2023-06-04 15:29:04,746 DEBUG   SenderThread:66730 [sender.py:send():375] send: artifact
+2023-06-04 15:29:04,746 DEBUG   HandlerThread:66730 [handler.py:handle_request():144] handle_request: defer
+2023-06-04 15:29:04,758 INFO    HandlerThread:66730 [handler.py:handle_request_defer():170] handle defer: 9
+2023-06-04 15:29:04,772 INFO    Thread-12 :66730 [dir_watcher.py:_on_file_modified():295] file/dir modified: /mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/resnet18cifar/wandb/run-20230604_152832-52pcuk09/files/output.log
+2023-06-04 15:29:05,007 DEBUG   HandlerThread:66730 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-04 15:29:06,421 INFO    wandb-upload_0:66730 [upload_job.py:push():92] Skipped uploading /root/.local/share/wandb/artifacts/staging/tmpse473hsj
+2023-06-04 15:29:07,009 INFO    wandb-upload_1:66730 [upload_job.py:push():95] Uploaded file /root/.local/share/wandb/artifacts/staging/tmp2ius7fsy
+2023-06-04 15:29:08,691 INFO    SenderThread:66730 [sender.py:send_artifact():1474] sent artifact job-https___github.com_wei-gc_PJ2_DATA620004__resnet18_tools_train_classification_model.py - {'id': 'QXJ0aWZhY3Q6NDc2ODkyMjE0', 'digest': '93f67715c07cefc7344ca7739d93fd59', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjc0MTE5Nzcw', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDc2ODg1NTAy', 'versionIndex': 0}}, 'version': 'latest'}
+2023-06-04 15:29:08,691 DEBUG   SenderThread:66730 [sender.py:send_request():402] send_request: defer
+2023-06-04 15:29:08,705 INFO    SenderThread:66730 [sender.py:send_request_defer():622] handle sender defer: 9
+2023-06-04 15:29:08,718 INFO    SenderThread:66730 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-06-04 15:29:08,774 INFO    SenderThread:66730 [dir_watcher.py:finish():395] scan: /mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/resnet18cifar/wandb/run-20230604_152832-52pcuk09/files
+2023-06-04 15:29:08,774 INFO    SenderThread:66730 [dir_watcher.py:finish():409] scan save: /mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/resnet18cifar/wandb/run-20230604_152832-52pcuk09/files/conda-environment.yaml conda-environment.yaml
+2023-06-04 15:29:08,776 INFO    SenderThread:66730 [dir_watcher.py:finish():409] scan save: /mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/resnet18cifar/wandb/run-20230604_152832-52pcuk09/files/wandb-metadata.json wandb-metadata.json
+2023-06-04 15:29:08,787 INFO    SenderThread:66730 [dir_watcher.py:finish():409] scan save: /mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/resnet18cifar/wandb/run-20230604_152832-52pcuk09/files/config.yaml config.yaml
+2023-06-04 15:29:08,796 INFO    SenderThread:66730 [dir_watcher.py:finish():409] scan save: /mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/resnet18cifar/wandb/run-20230604_152832-52pcuk09/files/requirements.txt requirements.txt
+2023-06-04 15:29:08,796 INFO    SenderThread:66730 [dir_watcher.py:finish():409] scan save: /mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/resnet18cifar/wandb/run-20230604_152832-52pcuk09/files/wandb-summary.json wandb-summary.json
+2023-06-04 15:29:08,812 INFO    SenderThread:66730 [dir_watcher.py:finish():409] scan save: /mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/resnet18cifar/wandb/run-20230604_152832-52pcuk09/files/output.log output.log
+2023-06-04 15:29:08,851 INFO    SenderThread:66730 [dir_watcher.py:finish():409] scan save: /mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/resnet18cifar/wandb/run-20230604_152832-52pcuk09/files/code/resnet18/tools/train_classification_model.py code/resnet18/tools/train_classification_model.py
+2023-06-04 15:29:08,851 INFO    SenderThread:66730 [sender.py:transition_state():626] send defer: 10
+2023-06-04 15:29:08,853 DEBUG   SenderThread:66730 [sender.py:send_request():402] send_request: poll_exit
+2023-06-04 15:29:08,853 DEBUG   HandlerThread:66730 [handler.py:handle_request():144] handle_request: defer
+2023-06-04 15:29:08,857 INFO    HandlerThread:66730 [handler.py:handle_request_defer():170] handle defer: 10
+2023-06-04 15:29:08,859 DEBUG   SenderThread:66730 [sender.py:send_request():402] send_request: defer
+2023-06-04 15:29:08,860 INFO    SenderThread:66730 [sender.py:send_request_defer():622] handle sender defer: 10
+2023-06-04 15:29:08,861 INFO    SenderThread:66730 [file_pusher.py:finish():167] shutting down file pusher
+2023-06-04 15:29:09,478 INFO    wandb-upload_1:66730 [upload_job.py:push():137] Uploaded file /mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/resnet18cifar/wandb/run-20230604_152832-52pcuk09/files/config.yaml
+2023-06-04 15:29:09,481 INFO    wandb-upload_0:66730 [upload_job.py:push():137] Uploaded file /mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/resnet18cifar/wandb/run-20230604_152832-52pcuk09/files/conda-environment.yaml
+2023-06-04 15:29:09,863 DEBUG   HandlerThread:66730 [handler.py:handle_request():144] handle_request: status_report
+2023-06-04 15:29:09,891 INFO    wandb-upload_4:66730 [upload_job.py:push():137] Uploaded file /mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/resnet18cifar/wandb/run-20230604_152832-52pcuk09/files/output.log
+2023-06-04 15:29:09,934 INFO    wandb-upload_3:66730 [upload_job.py:push():137] Uploaded file /mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/resnet18cifar/wandb/run-20230604_152832-52pcuk09/files/wandb-summary.json
+2023-06-04 15:29:10,009 DEBUG   HandlerThread:66730 [handler.py:handle_request():144] handle_request: keepalive
+2023-06-04 15:29:10,679 INFO    wandb-upload_2:66730 [upload_job.py:push():137] Uploaded file /mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/resnet18cifar/wandb/run-20230604_152832-52pcuk09/files/requirements.txt
+2023-06-04 15:29:10,879 INFO    Thread-11 :66730 [sender.py:transition_state():626] send defer: 11
+2023-06-04 15:29:10,880 DEBUG   HandlerThread:66730 [handler.py:handle_request():144] handle_request: defer
+2023-06-04 15:29:10,881 INFO    HandlerThread:66730 [handler.py:handle_request_defer():170] handle defer: 11
+2023-06-04 15:29:10,883 DEBUG   SenderThread:66730 [sender.py:send_request():402] send_request: defer
+2023-06-04 15:29:10,884 INFO    SenderThread:66730 [sender.py:send_request_defer():622] handle sender defer: 11
+2023-06-04 15:29:10,886 INFO    SenderThread:66730 [file_pusher.py:join():172] waiting for file pusher
+2023-06-04 15:29:10,888 INFO    SenderThread:66730 [sender.py:transition_state():626] send defer: 12
+2023-06-04 15:29:10,889 DEBUG   HandlerThread:66730 [handler.py:handle_request():144] handle_request: defer
+2023-06-04 15:29:10,891 INFO    HandlerThread:66730 [handler.py:handle_request_defer():170] handle defer: 12
+2023-06-04 15:29:10,892 DEBUG   SenderThread:66730 [sender.py:send_request():402] send_request: defer
+2023-06-04 15:29:10,894 INFO    SenderThread:66730 [sender.py:send_request_defer():622] handle sender defer: 12
+2023-06-04 15:29:11,163 INFO    SenderThread:66730 [sender.py:transition_state():626] send defer: 13
+2023-06-04 15:29:11,163 DEBUG   HandlerThread:66730 [handler.py:handle_request():144] handle_request: defer
+2023-06-04 15:29:11,165 INFO    HandlerThread:66730 [handler.py:handle_request_defer():170] handle defer: 13
+2023-06-04 15:29:11,167 DEBUG   SenderThread:66730 [sender.py:send_request():402] send_request: defer
+2023-06-04 15:29:11,168 INFO    SenderThread:66730 [sender.py:send_request_defer():622] handle sender defer: 13
+2023-06-04 15:29:11,169 INFO    SenderThread:66730 [sender.py:transition_state():626] send defer: 14
+2023-06-04 15:29:11,171 DEBUG   SenderThread:66730 [sender.py:send():375] send: final
+2023-06-04 15:29:11,171 DEBUG   HandlerThread:66730 [handler.py:handle_request():144] handle_request: defer
+2023-06-04 15:29:11,173 DEBUG   SenderThread:66730 [sender.py:send():375] send: footer
+2023-06-04 15:29:11,174 INFO    HandlerThread:66730 [handler.py:handle_request_defer():170] handle defer: 14
+2023-06-04 15:29:11,177 DEBUG   SenderThread:66730 [sender.py:send_request():402] send_request: defer
+2023-06-04 15:29:11,179 INFO    SenderThread:66730 [sender.py:send_request_defer():622] handle sender defer: 14
+2023-06-04 15:29:11,181 DEBUG   HandlerThread:66730 [handler.py:handle_request():144] handle_request: poll_exit
+2023-06-04 15:29:11,182 DEBUG   HandlerThread:66730 [handler.py:handle_request():144] handle_request: server_info
+2023-06-04 15:29:11,182 DEBUG   SenderThread:66730 [sender.py:send_request():402] send_request: poll_exit
+2023-06-04 15:29:11,183 DEBUG   HandlerThread:66730 [handler.py:handle_request():144] handle_request: get_summary
+2023-06-04 15:29:11,185 DEBUG   SenderThread:66730 [sender.py:send_request():402] send_request: server_info
+2023-06-04 15:29:11,186 DEBUG   HandlerThread:66730 [handler.py:handle_request():144] handle_request: sampled_history
+2023-06-04 15:29:11,700 INFO    MainThread:66730 [wandb_run.py:_footer_history_summary_info():3469] rendering history
+2023-06-04 15:29:11,701 INFO    MainThread:66730 [wandb_run.py:_footer_history_summary_info():3501] rendering summary
+2023-06-04 15:29:11,703 INFO    MainThread:66730 [wandb_run.py:_footer_sync_info():3428] logging synced files
+2023-06-04 15:29:11,704 DEBUG   HandlerThread:66730 [handler.py:handle_request():144] handle_request: shutdown
+2023-06-04 15:29:11,706 INFO    HandlerThread:66730 [handler.py:finish():842] shutting down handler
+2023-06-04 15:29:12,184 INFO    WriterThread:66730 [datastore.py:close():298] close: /mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/resnet18cifar/wandb/run-20230604_152832-52pcuk09/run-52pcuk09.wandb
+2023-06-04 15:29:12,700 INFO    SenderThread:66730 [sender.py:finish():1550] shutting down sender
+2023-06-04 15:29:12,700 INFO    SenderThread:66730 [file_pusher.py:finish():167] shutting down file pusher
+2023-06-04 15:29:12,703 INFO    SenderThread:66730 [file_pusher.py:join():172] waiting for file pusher

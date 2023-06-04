@@ -1,0 +1,13 @@
+No pretrained model file!
+Dataset Size:50000
+Dataset Class Num:100
+Dataset Size:10000
+Dataset Class Num:100
+Traceback (most recent call last):
+  File "/mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/resnet18cifar/../../../tools/train_classification_model.py", line 262, in <module>
+    main()
+  File "/mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/resnet18cifar/../../../tools/train_classification_model.py", line 40, in main
+    from train_config import config
+  File "/mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/resnet18cifar/./train_config.py", line 99, in <module>
+    x = [train_dataset[None, :, :], train_dataset[100][None, :, :], train_dataset[200][None, :, :]]
+NameError: name 'train_dataset' is not defined

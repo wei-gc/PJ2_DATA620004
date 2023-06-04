@@ -1,0 +1,67 @@
+No pretrained model file!
+Dataset Size:50000
+Dataset Class Num:100
+Dataset Size:10000
+Dataset Class Num:100
+Selected optimization level O1:  Insert automatic casts around Pytorch functions and Tensor methods.
+Defaults for this optimization level are:
+enabled                : True
+opt_level              : O1
+cast_model_type        : None
+patch_torch_functions  : True
+keep_batchnorm_fp32    : None
+master_weights         : None
+loss_scale             : dynamic
+Processing user overrides (additional kwargs that are not None)...
+After processing overrides, optimization options are:
+enabled                : True
+opt_level              : O1
+cast_model_type        : None
+patch_torch_functions  : True
+keep_batchnorm_fp32    : None
+master_weights         : None
+loss_scale             : dynamic
+Warning:  multi_tensor_applier fused unscale kernel is unavailable, possibly because apex was installed without --cuda_ext --cpp_ext. Using Python fallback.  Original ImportError was: ModuleNotFoundError("No module named 'amp_C'")
+Warning:  apex was installed without --cpp_ext.  Falling back to Python flatten and unflatten.
+79it [00:00, 112.64it/s]
+Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x7f5cb34a4ee0>
+Traceback (most recent call last):
+  File "/home/pai/envs/FCOS/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1510, in __del__
+    self._shutdown_workers()
+  File "/home/pai/envs/FCOS/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1474, in _shutdown_workers
+    w.join(timeout=_utils.MP_STATUS_CHECK_INTERVAL)
+  File "/home/pai/envs/FCOS/lib/python3.9/multiprocessing/process.py", line 149, in join
+    res = self._popen.wait(timeout)
+  File "/home/pai/envs/FCOS/lib/python3.9/multiprocessing/popen_fork.py", line 40, in wait
+    if not wait([self.sentinel], timeout):
+  File "/home/pai/envs/FCOS/lib/python3.9/multiprocessing/connection.py", line 936, in wait
+    ready = selector.select(timeout)
+  File "/home/pai/envs/FCOS/lib/python3.9/selectors.py", line 416, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt:
+Traceback (most recent call last):
+  File "/mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/resnet18cifar/../../../tools/train_classification_model.py", line 263, in <module>
+    main()
+  File "/mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/classification_training/cifar100/resnet18cifar/../../../tools/train_classification_model.py", line 176, in main
+    train_loss = train_classification(train_loader, model, train_criterion,
+  File "/mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/tools/scripts.py", line 138, in train_classification
+    outputs = model(images)
+  File "/home/pai/envs/FCOS/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/pai/envs/FCOS/lib/python3.9/site-packages/apex-0.1-py3.9.egg/apex/parallel/distributed.py", line 564, in forward
+    result = self.module(*inputs, **kwargs)
+  File "/home/pai/envs/FCOS/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/simpleAICV/classification/backbones/resnetforcifar.py", line 91, in forward
+    x = self.layer1(x)
+  File "/home/pai/envs/FCOS/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/home/pai/envs/FCOS/lib/python3.9/site-packages/torch/nn/modules/container.py", line 139, in forward
+    input = module(input)
+  File "/home/pai/envs/FCOS/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/mnt/workspace/weigengchen/projects/PJ2_DATA620004/resnet18/simpleAICV/classification/backbones/resnet.py", line 88, in forward
+    x = self.conv1(x)
+  File "/home/pai/envs/FCOS/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1125, in _call_impl
+    forward_call = (self._slow_forward if torch._C._get_tracing_state() else self.forward)
+KeyboardInterrupt
